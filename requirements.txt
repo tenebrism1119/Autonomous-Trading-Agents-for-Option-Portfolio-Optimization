@@ -1,0 +1,17 @@
+# Core dependencies
+python>=3.10
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+scipy>=1.9  # for norm.cdf/norm.pdf in Black-Scholes pricing
+
+# Reinforcement learning
+finrl>=0.3.5
+stable-baselines3>=2.0
+gymnasium>=0.28
+
+# Financial metrics
+stockstats>=1.2
+
+# Data (optional - only needed if reading from Tushare CSVs)
+# All data is provided as local CSV files under data/data/
