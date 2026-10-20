@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Vendored third-party libraries (installed locally, not part of this project)
+.pylibs/
+
+# Data files (too large / third-party licensed, not redistributed here)
+期权数据/
+futures_cache.csv
+
+# Model outputs and backtest results (regenerable, several hundred MB)
+trained_models/
+datasets/
+tensorboard_log/
+results*/
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup files
+*backup*
