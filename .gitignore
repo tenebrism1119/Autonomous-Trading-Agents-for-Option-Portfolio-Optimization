@@ -31,3 +31,7 @@ Thumbs.db
 
 # Backup files
 *backup*
+
+# Local run logs
+*.log
+*_log.txt
